@@ -38,7 +38,6 @@
 .digit {
     height: 60%;
     width: 100%;
-    /* border: 2px solid yellow; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -46,7 +45,7 @@
 }
 
 .digit button {
-    height: 73px;
+    height: 33%;
     width: 107px;
     background: #4d4d4d
 }
@@ -83,7 +82,7 @@
 }
 
 .ButtonRight .top {
-    height: 74px;
+    height: 20%;
     width: 108px;
     display: flex;
     align-items: center;
@@ -93,7 +92,7 @@
 }
 
 .equal {
-    height: 149px;
+    height: 39%;
     width: 108px;
     background: rgb(0, 68, 102);
 }
@@ -110,4 +109,11 @@ button:hover {
     color: black;
     outline: 0.05em solid grey;
     z-index: 3;
+}
+@media only screen and (min-width:1229px) and (max-width:1446px) {
+    .digit button {
+        height: 33%;
+        width: 100px;
+
+    }
 }
