@@ -1,7 +1,7 @@
 # ReactJS Calculator
 
 ## Host link
-https://weekly-test-4-r8r2.vercel.app/
+https://weekly-test-4-fvb3.vercel.app/
 
 A simple Calculator Application using React JS.
 
