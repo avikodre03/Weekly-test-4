@@ -117,3 +117,64 @@ button:hover {
 
     }
 }
+@media only screen and (min-width:990px) and (max-width:1229px) {
+    .digit button {
+        height: 31%;
+        width: 95px;
+
+    }
+    
+    
+}
+@media only screen and (min-width:750px) and (max-width:946px) {
+    .digit button {
+        height: 31%;
+        width: 90px;
+
+    }
+    .ButtonRight .top {
+        height: 19%;
+        width: 88px;
+    }
+    
+    .equal {
+        height: 38%;
+        width: 88px;
+    }
+}
+@media only screen and (min-width:315px) and (max-width:646px) {
+    .digit button {
+        height: 30%;
+        width: 62px;
+
+    }
+    .ButtonRight .top {
+        height: 19%;
+        width: 58px;
+    }
+    
+    .equal {
+        height: 38%;
+        width: 58px;
+       
+    }
+    .Ac {
+        width: 125px;
+      
+    }
+    
+    .divide {
+        width: 62px;
+       
+    }
+    .zero {
+        width: 125px;
+       
+    }
+    
+    .dot {
+        width: 62px;
+      
+    }
+    
+}

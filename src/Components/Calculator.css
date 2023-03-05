@@ -13,3 +13,27 @@ em {
     text-align: center;
     font-family: Share Tech Mono, sans;
 }
+@media only screen and (min-width:999px) and (max-width:1046px) {
+    .calculator {
+        height: 70%;
+        width: 40%;
+        
+    }
+    
+}
+@media only screen and (min-width:750px) and (max-width:946px) {
+    .calculator {
+        height: 70%;
+        width: 50%;
+        
+    }
+    
+}
+@media only screen and (min-width:315px) and (max-width:646px) {
+    .calculator {
+        height: 80%;
+        width: 90%;
+        
+    }
+    
+}
